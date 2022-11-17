@@ -34,7 +34,8 @@ public class IsomorphicStrings {
      
      */
     public static boolean isIsomorphic(String s, String t) {
-        /*In order for s and t to be isomorphic, all occurrences of the same letter in s must be replaced by the same letter
+        /*
+        In order for s and t to be isomorphic, all occurrences of the same letter in s must be replaced by the same letter
         in t. If it were "paper" "title", the maps would look something 
         like this: 
         p -> t   t -> p

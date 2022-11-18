@@ -1,4 +1,4 @@
-package com.gonsalves.leetcode.PrefixSum.medium;
+package com.gonsalves.leetcode.SlidingWindow.medium;
 
 public class MinimumSizeSubArray {
 

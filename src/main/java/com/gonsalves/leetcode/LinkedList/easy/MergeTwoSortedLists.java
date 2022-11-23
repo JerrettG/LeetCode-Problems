@@ -62,11 +62,17 @@ public class MergeTwoSortedLists {
         This assumes you will not have lists that are uneven by more than one. If sizes are not difference of one,
         this would be a while loop.
          */
-        if (list1 != null)
+        while (list1 != null) {
             current.next = list1;
-        else
-            current.next = list2;
+            current = current.next;
+            list1 = list1.next;
 
+        }
+        while (list2 != null) {
+            current.next = list2;
+            current = current.next;
+            list2 = list2.next;
+        }
         return result.next;
     }
 
